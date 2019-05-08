@@ -1,0 +1,89 @@
+// $medida-fuente: 18px;
+// $primary-color: #baf256;
+// @import 'mixins';
+
+// body{
+//     font-size: 14px;
+// }
+
+// p{
+//     font-size: $medida-fuente;
+//     color: $primary-color;
+// }
+
+// // .movie-info h2.title{
+// //     color: $primary-color;
+// //     font-weight: 900;
+// // }
+
+// .movie-info{
+//     #rated{
+//         @include cambiarOpacidad(0.5)
+//     }
+//     h2.title{
+//         color: $primary-color;
+//         font-weight: 900;
+//     }
+//     .written-by strong{
+//         font-weight: 900;
+//         color: blue;
+//     }
+// }
+
+// @import 'movieinfo'; //para llamar el archivo no hace falta poner el guion bajo
+// // agrega un archivo parcial de scss. para crear un archivo parcial siempre hay que guardarlo con guion bajo adelante. Ej: _movieinfo
+
+.container{
+    background-color: #F5F5F5;
+    padding: 1em;
+    font-family: "Lato", sans-serif;
+}
+
+.card{
+    background-color: white;
+    width: 60%;
+    margin: 12px auto;
+    border-radius: 0.8em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 30px 18px -24px;
+    .movie-search{
+        padding: 6px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        border: 1px solid gainsboro;
+        border-radius: 2px;
+        -webkit-appearance: none;
+
+        position: absolute;
+        top: 65px;
+        right: 340px;
+        margin: auto;
+        width: calc(100% - (12px * 4));
+
+        max-width: 200px;
+    }
+}
+
+#movie{
+    display: flex;
+    align-items: center;
+
+    .info-pelicula{
+        .movie-info{
+            padding: 72px;
+            .title{
+                font-size: 2em;
+                font-family: "Lato", sans-serif;
+                margin-bottom: 12px;
+            }
+            .clasif{
+                margin-left: 20px;
+                font-size: 0.75em;
+                color: darkgray;
+            }
+            .description, .written-by, .directed-by, .starring{
+                font-size: 0.9em;
+                line-height: 1.5;
+            }
+        }
+    }
+}

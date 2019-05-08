@@ -1,0 +1,51 @@
+.container {
+  background-color: #F5F5F5;
+  padding: 1em;
+  font-family: "Lato", sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 60%;
+  margin: 12px auto;
+  border-radius: 0.8em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 30px 18px -24px;
+}
+.card .movie-search {
+  padding: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  border: 1px solid gainsboro;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  position: absolute;
+  top: 65px;
+  right: 340px;
+  margin: auto;
+  width: calc(100% - (12px * 4));
+  max-width: 200px;
+}
+
+#movie {
+  display: flex;
+  align-items: center;
+}
+#movie .info-pelicula .movie-info {
+  padding: 72px;
+}
+#movie .info-pelicula .movie-info .title {
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 12px;
+}
+#movie .info-pelicula .movie-info .clasif {
+  margin-left: 20px;
+  font-size: 0.75em;
+  color: darkgray;
+}
+#movie .info-pelicula .movie-info .description, #movie .info-pelicula .movie-info .written-by, #movie .info-pelicula .movie-info .directed-by, #movie .info-pelicula .movie-info .starring {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=style.css.map */
