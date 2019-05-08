@@ -26,9 +26,16 @@
   max-width: 200px;
 }
 
+.fondo {
+  transform: scale(1.7) skew(-15deg, 0deg);
+  filter: blur(7px);
+}
+
 #movie {
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 100;
 }
 #movie .info-pelicula .movie-info {
   padding: 72px;
