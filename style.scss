@@ -37,6 +37,10 @@
     background-color: #F5F5F5;
     padding: 1em;
     font-family: "Lato", sans-serif;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{
