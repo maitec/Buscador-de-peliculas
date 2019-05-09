@@ -22,6 +22,7 @@ const writtenBy = document.querySelector('.movie-info .written-by span');
 const directedBy = document.querySelector('.movie-info .directed-by span');
 const starring = document.querySelector('.movie-info .starring span');
 const image = document.querySelector('#movie img');
+const background = document.querySelector('.fondo img');
 
 // keyup
 // keydown
@@ -52,6 +53,7 @@ input.addEventListener('keypress', function (event) {
       starring.innerText = movie.Actors;
 
       image.src = movie.Poster;
+      background.src = movie.Poster;
     }
   }
 });

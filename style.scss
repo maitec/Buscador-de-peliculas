@@ -50,7 +50,6 @@
     border-radius: 0.8em;
     box-shadow: rgba(0, 0, 0, 0.2) 0 30px 18px -24px;
     position: relative;
-    z-index: 2;
     overflow: hidden;
     .movie-search{
         padding: 6px;
@@ -67,6 +66,7 @@
         width: calc(100% - (12px * 4));
 
         max-width: 200px;
+        z-index: 2;
     }
     .fondo {
         position: absolute;
@@ -89,15 +89,15 @@
     display: flex;
     align-items: center;
     position: relative;
-    z-index: 100;
+    z-index: 1;
     .foto {
         width: 100%;
         display: flex;
         justify-content: flex-end;
         img {
-        width: 50%;
-        height: 50%;
-        box-shadow: rgba(0, 0, 0, 0.2) 0 30px 18px -24px;
+            width: 145px;
+            height: 215px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 30px 18px -24px;
         }
       }
     .info-pelicula{
