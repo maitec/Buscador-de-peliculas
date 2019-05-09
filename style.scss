@@ -91,7 +91,7 @@
     position: relative;
     z-index: 1;
     .foto {
-        width: 100%;
+        width: 30%;
         display: flex;
         justify-content: flex-end;
         img {
@@ -101,6 +101,7 @@
         }
       }
     .info-pelicula{
+        width: 70%;
         .movie-info{
             padding: 72px;
             .title{

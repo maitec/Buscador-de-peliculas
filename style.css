@@ -55,7 +55,7 @@
   z-index: 1;
 }
 #movie .foto {
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: flex-end;
 }
@@ -63,6 +63,9 @@
   width: 145px;
   height: 215px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 30px 18px -24px;
+}
+#movie .info-pelicula {
+  width: 70%;
 }
 #movie .info-pelicula .movie-info {
   padding: 72px;
